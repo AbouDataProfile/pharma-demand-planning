@@ -1,0 +1,4 @@
+family,n_skus,total_excess_eur,total_stockout_eur,total_exposure_eur,avg_mape,avg_bullwhip_ratio,n_high_risk,share_of_total_pct
+Medical Devices,20,1189927.0,0.0,1189927.0,13.385,1.0268985604525602,5,37.6
+Surgical Consumables,20,1053911.0,0.0,1053911.0,15.645000000000001,0.9227085458346618,8,33.3
+Diagnostic Equipment,10,915020.0,2496.0,917516.0,12.2,0.8076189708779739,3,29.0
