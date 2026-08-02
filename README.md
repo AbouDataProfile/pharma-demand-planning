@@ -37,11 +37,17 @@ The project is organized as 7 sequential modules, each a standalone notebook bui
 Module | Notebook | What it does 
 
 M1 - '01_data_generation.ipynb': Generates 50 SKUs × 3 markets × 152 weeks of synthetic demand, with configurable bias, seasonality, and bullwhip flags baked in as ground truth
+
 M2 - '02_forecast_error_analysis.ipynb': Computes MAPE/bias per SKU, risk-scores the portfolio, quantifies excess stock exposure
+
 M3 - '03_outlier_detection.ipynb': Isolation Forest model to separate data noise from real business spikes (F1 = 83.4%)
+
 M4 - '04_forecast_models.ipynb' : Benchmarks Baseline (moving average), Holt-Winters, and XGBoost on HIGH-risk SKUs
+
 M5 - '05_bullwhip_effect_quantification.ipynb': Quantifies demand amplification via variance ratio; includes a multi-period robustness check that was tested, found statistically unreliable, and documented as a methodology limitation rather than silently discarded
+
 M6 - '06_financial_impact.ipynb': Consolidates M2–M5 into a single financial exposure view, by SKU and by product family
+
 M7 - Power BI dashboard: 4-view interactive dashboard connecting all of the above
 
 Each notebook writes its outputs to a shared SQLite database (`data/medcore.db`), so downstream modules always work from the latest validated results rather than recomputing from scratch.
