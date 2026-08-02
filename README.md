@@ -1,4 +1,4 @@
-# MedCore Pharma — Demand Planning Intelligence
+# MedCore Pharma - Demand Planning Intelligence
 
 An end-to-end demand planning analytics project simulating a pharma/medical device distributor: synthetic but realistic data generation, forecast error analysis, anomaly detection, model benchmarking, bullwhip effect quantification, financial impact modeling, and an interactive Power BI dashboard.
 
