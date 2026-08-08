@@ -40,11 +40,7 @@ M1 - '01_data_generation.ipynb': Generates 50 SKUs × 3 markets × 152 weeks of 
 
 M2 - '02_forecast_error_analysis.ipynb': Computes MAPE/bias per SKU, risk-scores the portfolio, quantifies excess stock exposure
 
-<<<<<<< HEAD
-M3 - '03_outlier_detection.ipynb': Isolation Forest model to separate data noise from real business spikes (F1 = 83.4%)*
-=======
 M3 - '03_outlier_detection.ipynb': Isolation Forest model to separate data noise from real business spikes (F1 = 83.4%)
->>>>>>> a3010d080b658e780829c7fe0a692e6f95a064b7
 
 M4 - '04_forecast_models.ipynb' : Benchmarks Baseline (moving average), Holt-Winters, and XGBoost on HIGH-risk SKUs
 
@@ -95,11 +91,17 @@ Built in Power BI.
 ## Repository structure
 
 pharma-demand-planning/
+
 ├── data/                   # SQLite database
+
 ├── notebooks/              # M1–M6 notebooks
+
 ├── outputs/                # Exported charts + CSVs for Power BI
+
 │   └── powerbi/            # CSV exports feeding the dashboard
+
 ├── powerbi/                # .pbix file
+
 └── README.md
 
 ## About
